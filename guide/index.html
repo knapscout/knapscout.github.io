@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>KnapScout — Field Guide</title>
-<meta name="description" content="A quick guide for artifact hunters in the field. KnapScout is a free, browser-based survey tool built by collectors for collectors.">
+<meta name="description" content="A quick guide for artifact hunters in the field. KnapScout is a browser-based survey tool built by collectors for collectors.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,400;9..144,600;9..144,800;9..144,900&family=IM+Fell+English+SC&family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
@@ -701,6 +701,7 @@
 
 <main>
 
+  <!-- SYNC RULE: This guide must match the shipped app (app-repo). Every claim here must be true in the build. When the app changes, update this guide the same session. -->
   <!-- ==================== HERO ==================== -->
   <section class="hero">
     <div class="topo-bg" aria-hidden="true">
@@ -737,10 +738,10 @@
         <span class="knap">Knap</span>
         <span class="scout">Scout.</span>
       </h1>
-      <p class="hero-sub">A field guide for the working hunter — built by collectors, refined on the ground, free to use.</p>
+      <p class="hero-sub">A field guide for the working hunter — built by collectors, refined on the ground.</p>
       <div class="hero-meta">
         <span>Format<strong>Browser-Based</strong></span>
-        <span>Cost<strong>Free</strong></span>
+        <span>Status<strong>Beta</strong></span>
         <span>Setup<strong>Under 60 Sec</strong></span>
         <span>Coverage<strong>Anywhere With GPS</strong></span>
       </div>
@@ -757,12 +758,12 @@
         <h2 class="section-title">What KnapScout Does</h2>
         <p class="section-lede">Walk the ground. Drop pins. Log finds. Swap data without losing track of whose is whose.</p>
         <div class="section-body">
-          <p>KnapScout is a working tool, not a marketing exercise. It captures where you walked, what you saw, and what you picked up — all on your phone, all in one place. No app store, no account, no fees. Open it in a browser, save it to your home screen, and head to the field.</p>
+          <p>KnapScout is a working tool, not a marketing exercise. It captures where you walked, what you saw, and what you picked up — all on your phone, all in one place. No app store, no clutter. Open it in a browser, sign in once, save it to your home screen, and head to the field.</p>
           <ul class="field-list">
             <li>GPS path tracking so you can see exactly where you covered</li>
             <li>Three pin types for the three things you actually find: nothing, evidence, and finds</li>
             <li>Owner-tagged exports so a group hunt doesn't turn into a data mess</li>
-            <li>Photos, notes, and coordinates saved with every find</li>
+            <li>Notes and coordinates on every pin you drop</li>
           </ul>
         </div>
       </div>
@@ -777,9 +778,9 @@
       </div>
       <div>
         <h2 class="section-title">Open the App</h2>
-        <p class="section-lede">One URL. No install. No account.</p>
+        <p class="section-lede">One URL. No app store. Sign in and go.</p>
         <div class="section-body">
-          <p>Open your phone's browser and type in the address. When the app loads, hit the share icon and choose <em>Add to Home Screen</em>. After that, it lives next to your other apps — one tap, full screen, ready to go.</p>
+          <p>Open your phone's browser and type in the address. The first time, the app asks for your email and sends a 6-digit code. Enter the code and you're in. Then hit the share icon and choose <em>Add to Home Screen</em>. After that it lives next to your other apps. One tap, full screen, ready to go.</p>
           <div class="url-card">
             <div class="label">Field Address</div>
             <div class="url">knapscout.github.io/app</div>
@@ -797,10 +798,10 @@
         <div class="waypoint-marker">Waypoint<span class="num">03</span></div>
       </div>
       <div>
-        <h2 class="section-title">Set Your Username</h2>
+        <h2 class="section-title">Your Name Rides Along</h2>
         <p class="section-lede">Your name on every pin you drop. The trick that makes group hunts work.</p>
         <div class="section-body">
-          <p>The first time you open the app, it asks for your name or initials. Whatever you enter gets stamped onto every pin you create from then on.</p>
+          <p>When you sign in, your name comes with your account and gets stamped onto every pin you create. No extra setup step.</p>
           <p>This is the feature that separates KnapScout from a generic mapping app. When you import a hunting partner's export into your own data, the owner tag stays attached. Your pins stay yours. Theirs stay theirs. No more arguing over who found the broken Halifax.</p>
         </div>
       </div>
@@ -900,12 +901,12 @@
           <div class="pin-card">
             <svg class="pin-icon" viewBox="0 0 32 32"><path d="M16 2 C 9 2, 4 7, 4 14 C 4 22, 16 30, 16 30 C 16 30, 28 22, 28 14 C 28 7, 23 2, 16 2 Z" fill="#B8842A" stroke="#2A231A" stroke-width="1.5"/><circle cx="16" cy="13" r="4" fill="#EDE3D0"/></svg>
             <h4>Evidence</h4>
-            <p>Flakes, debitage, fire-cracked rock. Anything that says people worked here. Marks the productive zones for follow-up.</p>
+            <p>Flakes, debitage, fire-cracked rock. Anything that says people worked here. Marks the productive zones for follow-up. Tap the pin to note what you saw.</p>
           </div>
           <div class="pin-card">
             <svg class="pin-icon" viewBox="0 0 32 32"><path d="M16 2 C 9 2, 4 7, 4 14 C 4 22, 16 30, 16 30 C 16 30, 28 22, 28 14 C 28 7, 23 2, 16 2 Z" fill="#A0461F" stroke="#2A231A" stroke-width="1.5"/><circle cx="16" cy="13" r="4" fill="#EDE3D0"/></svg>
             <h4>Find</h4>
-            <p>The keeper. Photo, notes, GPS — captured the moment you pick it up. Reads the site at a glance once you have a few logged.</p>
+            <p>The keeper. Drop it where you stand and the app grabs GPS automatically. Tap the pin to add a note while it's fresh. Reads the site at a glance once you have a few logged.</p>
           </div>
         </div>
       </div>
@@ -953,17 +954,49 @@
     </div>
   </section>
 
-  <!-- ==================== 07 — LOG A FIND ==================== -->
+  <!-- ==================== 07 — FIND YOUR BEARING ==================== -->
   <section class="section">
     <div class="section-inner">
       <div class="waypoint">
         <div class="waypoint-marker">Waypoint<span class="num">07</span></div>
       </div>
       <div>
+        <h2 class="section-title">Find Your Bearing</h2>
+        <p class="section-lede">Keep your line straight. Cover the ground you meant to.</p>
+        <div class="section-body">
+          <p>The built-in compass shows your bearing as you walk. Use it to hold a straight line across a field instead of drifting, so your passes stay even and you do not double-cover one strip while missing the next. Pick a heading, walk it, turn, and walk the next lane back. Tight, parallel passes are how you actually cover a site instead of wandering it.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 08 — DRAW THE BOUNDARY ==================== -->
+  <section class="section">
+    <div class="section-inner">
+      <div class="waypoint">
+        <div class="waypoint-marker">Waypoint<span class="num">08</span></div>
+      </div>
+      <div>
+        <h2 class="section-title">Draw the Boundary</h2>
+        <p class="section-lede">Define the site once. Every pin knows where it belongs.</p>
+        <div class="section-body">
+          <p>Draw a boundary around a site to define its edges, like fencing Stonegate on the map. Once a site has a boundary, the pins you drop inside it are tied to that site automatically, so your data sorts itself instead of piling into one heap. Come back next season, pull up the site, and everything you logged there is already grouped and waiting.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 09 — LOG A FIND ==================== -->
+  <section class="section">
+    <div class="section-inner">
+      <div class="waypoint">
+        <div class="waypoint-marker">Waypoint<span class="num">09</span></div>
+      </div>
+      <div>
         <h2 class="section-title">Log a Find</h2>
         <p class="section-lede">The moment you pick it up — not in the truck on the drive home.</p>
         <div class="section-body">
-          <p>Drop a Find pin where you stand. The app captures GPS automatically. Snap a photo right there in your palm — same lighting every time, scale provided by your hand. Add notes while it's fresh: material, condition, anything diagnostic.</p>
+          <p>Drop a Find pin where you stand. The app captures GPS automatically. Then tap the pin and add a note while the detail is fresh in your hands. Material, condition, anything diagnostic, in your own words. Good notes capture, in order:</p>
           <ul class="field-list">
             <li>Material first: quartzite, quartz, chert, rhyolite, jasper</li>
             <li>Then condition: complete, distal, medial, proximal, base</li>
@@ -975,11 +1008,11 @@
     </div>
   </section>
 
-  <!-- ==================== 08 — SHARE & MERGE ==================== -->
+  <!-- ==================== 10 — SHARE & MERGE ==================== -->
   <section class="section">
     <div class="section-inner">
       <div class="waypoint">
-        <div class="waypoint-marker">Waypoint<span class="num">08</span></div>
+        <div class="waypoint-marker">Waypoint<span class="num">10</span></div>
       </div>
       <div>
         <h2 class="section-title">Share &amp; Merge</h2>
@@ -1015,11 +1048,11 @@
     </div>
   </section>
 
-  <!-- ==================== 09 — FIELD TIPS ==================== -->
+  <!-- ==================== 11 — FIELD TIPS ==================== -->
   <section class="section">
     <div class="section-inner">
       <div class="waypoint">
-        <div class="waypoint-marker">Waypoint<span class="num">09</span></div>
+        <div class="waypoint-marker">Waypoint<span class="num">11</span></div>
       </div>
       <div>
         <h2 class="section-title">Field Tips</h2>
@@ -1057,7 +1090,7 @@
     <div class="closing-inner">
       <div class="closing-mark">— Get Started —</div>
       <h2>Walk the ground.</h2>
-      <p class="closing-sub">Built by hunters. Refined in the field. Free to use, forever.</p>
+      <p class="closing-sub">Built by hunters. Refined in the field. Free to use while we're in beta.</p>
       <a href="https://knapscout.github.io/app" class="cta-link">Open KnapScout →</a>
     </div>
   </section>
